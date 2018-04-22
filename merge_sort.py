@@ -8,13 +8,11 @@ def merge(left, right):
     # 当左右都不为空时
     while left and right:
         # 给merged列表中添加左右两个列表中的较小元素
-        if left[0] <= right[0]:
-            merged.append(left.popleft())
-        else:
-            merged.append(right.popleft())
-
-        # 装B写法
-        # merged.append(left.popleft() if left[0] <= right[0] else right.popleft())
+        #if left[0] <= right[0]:
+        #    merged.append(left.popleft())
+        #else:
+        #    merged.append(right.popleft())
+        merged.append(left.popleft() if left[0] <= right[0] else right.popleft())
 
     # 当有一个列表已经归并完毕时将另一个列表整个添加到merged列表中.
     merged.extend(right if right else left)

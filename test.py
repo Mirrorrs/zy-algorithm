@@ -1,2 +1,5 @@
-list1 = [10,2,34,5,6,1]
-print(list(list1))
+import math
+print(math.log(8, 2))
+
+a = [[] for i in range(10)]
+print(a)

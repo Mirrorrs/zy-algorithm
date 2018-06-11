@@ -53,6 +53,7 @@ Status insert_elem(sq_list &L,int i,int e){
 	}
 
 //删除元素
+//i为下标+1
 void delete_elem(sq_list &L,int i){
 	for (int j = i-1;j < L.length;j++)
 		L.elem[j] = L.elem[j+1];

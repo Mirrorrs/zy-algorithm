@@ -24,17 +24,9 @@ sq_list greaterGetPrime(sq_list m, sq_list n){
     if (!isMGreaterThanN(m, n))
         swap_sq_list(m, n);
     while (!isEqual(m, n)){
-        getchar();
-        cout<<"m is ";
-        tight_print(m);
-        cout<<".n is ";
-        tight_print(n);
-        cout<<". "<<endl;
         m = greaterMinus(m, n);
-        if (!isMGreaterThanN(m, n)) {
-            cout<<"m is smaller than n"<<endl;
+        if (!isMGreaterThanN(m, n))
             swap_sq_list(m, n);
-        }
     }
     return m;
 }
@@ -53,10 +45,10 @@ int main(){
     init_list(result);
     m = convert_char_array_to_sq_list(s1);
     n = convert_char_array_to_sq_list(s2);
-    //result = greaterGetPrime(m, n);
-    result = greaterMinus(m, n);
+    result = greaterGetPrime(m, n);
+    //result = greaterMinus(m, n);
 
-    //tight_print(result);
+    tight_print(result);
     //cout<<isMGreaterThanN(m, n);
     //tight_print(m);
     //cout<<endl;

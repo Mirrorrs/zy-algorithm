@@ -3,7 +3,6 @@
 #include"greaterMinus.h"
 #include"sqList.h"
 using namespace std;
-
 bool isGreater(int m , int n){
 	return m > n;
 }
@@ -22,15 +21,26 @@ int getPrime(int m, int n){
 // 大整数的实现
 
 sq_list greaterGetPrime(sq_list m, sq_list n){
+    if (!isMGreaterThanN(m, n))
+        swap_sq_list(m, n);
     while (!isEqual(m, n)){
-        print(m);
-        print(n);
+        getchar();
+        cout<<"m is ";
+        tight_print(m);
+        cout<<".n is ";
+        tight_print(n);
+        cout<<". "<<endl;
         m = greaterMinus(m, n);
-        if (!isMGreaterThanN(m, n))
+        if (!isMGreaterThanN(m, n)) {
+            cout<<"m is smaller than n"<<endl;
             swap_sq_list(m, n);
+        }
     }
     return m;
 }
+
+
+// 编写函数将一个字符创转为sq_list
 
 
 int main(){
@@ -43,8 +53,13 @@ int main(){
     init_list(result);
     m = convert_char_array_to_sq_list(s1);
     n = convert_char_array_to_sq_list(s2);
+    //result = greaterGetPrime(m, n);
     result = greaterMinus(m, n);
 
-    print(result);
+    //tight_print(result);
+    //cout<<isMGreaterThanN(m, n);
+    //tight_print(m);
+    //cout<<endl;
+
     return 0;
 }

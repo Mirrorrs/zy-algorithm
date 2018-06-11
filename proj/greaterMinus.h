@@ -5,7 +5,7 @@
 #include<cstring>
 #include<iostream>
 #include"sqList.h"
-#define mlen 200
+#define mlen 100
 
 using namespace std;
 
@@ -14,53 +14,36 @@ sq_list convert_char_array_to_sq_list(char* s){
     sq_list result;
     init_list(result);
     int len = strlen(s);
-    for (int i=len-1; i>=0; i--) append_list(result, s[i]-'0');
+    // 正序转换, result中的顺序和s一样
+    for (int i=0; i < len; i ++) append_list(result, s[i]-'0');
     return result;
 }
 
 
 sq_list greaterMinus(sq_list a1, sq_list a2){
-    /*
-    sq_list a1, a2;
-    init_list(a1);init_list(a2);
-	int i,j,k;
-	//j=0;
-	//for(i=len1-1;i>=0;i--) append_list(a1, s1[i]-'0');
-    a1 = convert_char_array_to_sq_list(s1);
+    int temp=0;
+	sq_list tempA2;
+	init_list(tempA2);
+	cp_sq_list(a2, tempA2);
+    int len1, len2;
+    len1 = a1.length;
+    len2 = tempA2.length;
+	// 为位数不足的数在前面补位0
+    for(int i=0; i<len1-len2; i++)
+        insert_elem(tempA2, 1, 0);
 
-	// 同上处理第二个数.
-	//int len2=strlen(s2);
-	//j=0;
-	//for(i=len2-1;i>=0;i--) append_list(a2, s2[i]-'0');
-    a2 = convert_char_array_to_sq_list(s2);
-    */
-	int temp=0;
 	// 逐位做减法.
-	for(int i = 0; i < mlen; i ++)
-	{
-		// 如果不够减, 需要借位.
-		if(a1.elem[i] < a2.elem[i])
+	for(int i = a1.length-1; i >= 0; i --) {
+	    // 如果不够减, 需要借位.
+		if(a1.elem[i] < tempA2.elem[i])
 		{
 			temp = a1.elem[i] + 10;
-			a1.elem[i] = temp - a2.elem[i];
-			a1.elem[i+1] --;
+			a1.elem[i] = temp - tempA2.elem[i];
+			a1.elem[i-1] --;
 		}
 		// 够减就直接减.
-		else a1.elem[i] -= a2.elem[i];
+		else a1.elem[i] -= tempA2.elem[i];
 	}
-    print(a1);
-    // 目前为止, 在a1中存放的是结果的倒序, 我们将它保存到result中并带回.
-    sq_list result;
-    init_list(result);
-    int flag;
-    for(int i=a1.length - 1; i >= 0; i--)
-        if(a1.elem[i]!=0){
-            flag = i;
-            break;
-        }
-    cout<<flag<<endl;
-    for(int i = flag; i >=0; i--)
-        append_list(result, a1.elem[i]);
-    return result;
+	return a1;
 }
 # endif

@@ -33,40 +33,22 @@ void append_list(sq_list &L, int e){
 	}
 
 
-//在线性表中插入元素
-void where_to_insert(sq_list &L,int x){
-	if (L.length>=L.list_size){
-		int* newbase = (int*)realloc(L.elem,
-						(L.list_size + extra_size)*sizeof(int));
-		L.elem = newbase;
-		L.list_size += extra_size;
-		}
-	int i;
-	if(x<=L.elem[0]) i = -1;
-	else if(x>=L.elem[L.length-1]) i = L.length-1;
-	else
-		for(i = 0;i<L.length;i++)
-			if(x>=L.elem[i]&&x<=L.elem[i+1]) break;
-	L.length++;
-	for(int j = L.length-1;j>=i+1;j--)
-		L.elem[j] = L.elem[j-1];
-	L.elem[i+1] = x;
-	}
-
-
-
-//插入元素
+// 插入元素, 在位置i之前.
+// 位置为下标+1
 Status insert_elem(sq_list &L,int i,int e){
-	if (i<1||i>L.length + 1){return False;}
+    // 两种异常的处理
+    if (i<1||i>L.length + 1){return False;}
 	if (L.length>=L.list_size){
 		int* newbase = (int*)realloc(L.elem,
 						(L.list_size + extra_size)*sizeof(int));
 		L.elem = newbase;
 		L.list_size += extra_size;
 		}
-	for (int j = L.length;j >= i+1;j--) L.elem[j] = L.elem[j-1];
-		L.length++;
-	L.elem[i] = e;
+	//为新元素腾出空间
+	L.length ++;
+    // 为新元素挪位置
+	for (int j = L.length;j >= i;j--) L.elem[j] = L.elem[j-1];
+	L.elem[i-1] = e;
 	return True;
 	}
 
@@ -112,9 +94,14 @@ Status isMGreaterThanN(sq_list m, sq_list n){
     else if (m.length < n.length)
         return False;
     else
-        for(int i=m.length; i>=0; i--)
-            if (m.elem[i] > n.elem[i]) return True;
-        return False;
+        for(int i=0; i<m.length; i++)
+            if (m.elem[i] > n.elem[i])
+                return True;
+            else if (m.elem[i] == n.elem[i])
+                continue;
+            else
+                return False;
+
     }
 
 // 比较两个列表是否完全相等
@@ -128,6 +115,12 @@ Status isEqual(sq_list L1, sq_list L2){
         }
         return True;
     }
+}
+
+// 复制一个前一个线性表给后一个
+void cp_sq_list(sq_list L1, sq_list L2){
+    for(int i=0; i<L1.length; i++)
+        append_list(L2, L2.elem[i]);
 }
 
 // 交换两个线性表

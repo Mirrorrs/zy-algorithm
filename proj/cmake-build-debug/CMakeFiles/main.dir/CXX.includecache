@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ma/ws/zy-algorithm/proj/greatGCD.cpp
+iostream
+-
+cstdio
+-
+cstring
+-
+algorithm
+-
+cmath
+-
+

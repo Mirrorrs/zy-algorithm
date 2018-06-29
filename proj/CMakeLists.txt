@@ -1,0 +1,1 @@
+add_executable(proj proj.cpp sqList.h greatMultiple.h greatMinus.h util.h)

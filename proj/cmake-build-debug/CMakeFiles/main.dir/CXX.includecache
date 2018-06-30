@@ -29,6 +29,8 @@ iostream
 -
 cstdio
 -
+ctime
+-
 greatMinus.h
 /home/ma/ws/zy-algorithm/proj/greatMinus.h
 sqList.h

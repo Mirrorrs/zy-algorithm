@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdio>
+#include <ctime>
 #include "greatMinus.h"
 #include "sqList.h"
 #include "util.h"
@@ -63,6 +64,8 @@ sqList greaterGetPrime(sqList m, sqList n){
 int main(){
 	char s1[MAXLEN + 10];
 	char s2[MAXLEN + 10];
+	clock_t start, end;
+	double cost;
 	scanf("%s%s",s1,s2);
     sqList m, n, result;
     initList(m);
@@ -70,13 +73,17 @@ int main(){
     initList(result);
     m = ConvertCharArrayToSqList(s1);
     n = ConvertCharArrayToSqList(s2);
+    start = clock();
     result = greaterGetPrime(m, n);
+    end = clock();
+    cost = (double)(end - start) / CLOCKS_PER_SEC;
     //result = greatMinus(m, n);
     //result = greatMultiple(m, 2);
     //result = greatDivide(m);
     cout<<"Result is: ";
     tightPrint(result);
     cout<<"."<<endl;
+    cout<<"Time consuming: "<<cost<<" seconds."<<endl;
     //cout<<isMGreaterThanN(m, n);
     //tightPrint(m);
     //cout<<endl;

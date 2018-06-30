@@ -111,32 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named proj
+# Target rules for targets named main
 
 # Build rule for target.
-proj: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 proj
-.PHONY : proj
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-proj/fast:
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/build
-.PHONY : proj/fast
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+main.o: main.cpp.o
+
+.PHONY : main.o
 
 # target to build an object file
-proj.o:
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/proj.o
-.PHONY : proj.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
 
 # target to preprocess a source file
-proj.i:
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/proj.i
-.PHONY : proj.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
 
 # target to generate assembly for a file
-proj.s:
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/proj.s
-.PHONY : proj.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -146,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... proj"
-	@echo "... proj.o"
-	@echo "... proj.i"
-	@echo "... proj.s"
+	@echo "... main"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

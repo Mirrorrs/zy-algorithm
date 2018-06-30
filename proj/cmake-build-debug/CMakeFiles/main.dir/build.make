@@ -57,38 +57,38 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/greatGCD.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/greatGCD.o: ../greatGCD.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ma/ws/zy-algorithm/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/greatGCD.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/greatGCD.o -c /home/ma/ws/zy-algorithm/proj/greatGCD.cpp
+CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ma/ws/zy-algorithm/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /home/ma/ws/zy-algorithm/proj/main.cpp
 
-CMakeFiles/main.dir/greatGCD.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/greatGCD.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ma/ws/zy-algorithm/proj/greatGCD.cpp > CMakeFiles/main.dir/greatGCD.i
+CMakeFiles/main.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ma/ws/zy-algorithm/proj/main.cpp > CMakeFiles/main.dir/main.cpp.i
 
-CMakeFiles/main.dir/greatGCD.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/greatGCD.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ma/ws/zy-algorithm/proj/greatGCD.cpp -o CMakeFiles/main.dir/greatGCD.s
+CMakeFiles/main.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ma/ws/zy-algorithm/proj/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
-CMakeFiles/main.dir/greatGCD.o.requires:
+CMakeFiles/main.dir/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/main.dir/greatGCD.o.requires
+.PHONY : CMakeFiles/main.dir/main.cpp.o.requires
 
-CMakeFiles/main.dir/greatGCD.o.provides: CMakeFiles/main.dir/greatGCD.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/greatGCD.o.provides.build
-.PHONY : CMakeFiles/main.dir/greatGCD.o.provides
+CMakeFiles/main.dir/main.cpp.o.provides: CMakeFiles/main.dir/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/main.cpp.o.provides
 
-CMakeFiles/main.dir/greatGCD.o.provides.build: CMakeFiles/main.dir/greatGCD.o
+CMakeFiles/main.dir/main.cpp.o.provides.build: CMakeFiles/main.dir/main.cpp.o
 
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/greatGCD.o"
+"CMakeFiles/main.dir/main.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/greatGCD.o
+main: CMakeFiles/main.dir/main.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ma/ws/zy-algorithm/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"
@@ -99,7 +99,7 @@ CMakeFiles/main.dir/build: main
 
 .PHONY : CMakeFiles/main.dir/build
 
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/greatGCD.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/main.cpp.o.requires
 
 .PHONY : CMakeFiles/main.dir/requires
 

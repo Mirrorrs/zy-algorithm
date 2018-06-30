@@ -37,9 +37,9 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ma/ws/zy-algorithm/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="proj">
-				<Option output="/home/ma/ws/zy-algorithm/proj/cmake-build-debug/proj" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir=""/>
+			<Target title="main">
+				<Option output="/home/ma/ws/zy-algorithm/proj/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ma/ws/zy-algorithm/proj/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ma/ws/zy-algorithm/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 proj"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ma/ws/zy-algorithm/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ma/ws/zy-algorithm/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/ma/ws/zy-algorithm/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ma/ws/zy-algorithm/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="proj/fast">
-				<Option output="/home/ma/ws/zy-algorithm/proj/cmake-build-debug/proj" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir=""/>
+			<Target title="main/fast">
+				<Option output="/home/ma/ws/zy-algorithm/proj/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ma/ws/zy-algorithm/proj/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,7 +77,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ma/ws/zy-algorithm/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 proj/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ma/ws/zy-algorithm/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ma/ws/zy-algorithm/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/ma/ws/zy-algorithm/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ma/ws/zy-algorithm/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -85,22 +85,22 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/ma/ws/zy-algorithm/proj/greatDivide.h">
-			<Option target="proj"/>
+			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/ma/ws/zy-algorithm/proj/greatMinus.h">
-			<Option target="proj"/>
+			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/ma/ws/zy-algorithm/proj/greatMultiple.h">
-			<Option target="proj"/>
+			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/ma/ws/zy-algorithm/proj/proj.cpp">
-			<Option target="proj"/>
+		<Unit filename="/home/ma/ws/zy-algorithm/proj/main.cpp">
+			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/ma/ws/zy-algorithm/proj/sqList.h">
-			<Option target="proj"/>
+			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/ma/ws/zy-algorithm/proj/util.h">
-			<Option target="proj"/>
+			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/ma/ws/zy-algorithm/proj/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

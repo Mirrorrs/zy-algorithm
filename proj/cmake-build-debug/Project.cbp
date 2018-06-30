@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ma/ws/zy-algorithm/proj/greatDivide.h">
+			<Option target="proj"/>
+		</Unit>
 		<Unit filename="/home/ma/ws/zy-algorithm/proj/greatMinus.h">
 			<Option target="proj"/>
 		</Unit>

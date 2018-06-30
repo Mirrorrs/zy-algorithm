@@ -25,7 +25,7 @@ int isUneven(int m){
 }
 
 // 编写一个函数判断一个大整数是否为奇数
-int greaterIsUneven(sqList L){
+int greatIsUneven(sqList L){
     return L.elem[L.length-1]%2;
 }
 

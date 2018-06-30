@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/ma/ws/zy-algorithm/proj/greatDivide.h
+sqList.h
+/home/ma/ws/zy-algorithm/proj/sqList.h
+
 /home/ma/ws/zy-algorithm/proj/greatMinus.h
 cstdio
 -
@@ -35,8 +39,8 @@ util.h
 /home/ma/ws/zy-algorithm/proj/util.h
 greatMultiple.h
 /home/ma/ws/zy-algorithm/proj/greatMultiple.h
-greatMultiple.h
-/home/ma/ws/zy-algorithm/proj/greatMultiple.h
+greatDivide.h
+/home/ma/ws/zy-algorithm/proj/greatDivide.h
 
 /home/ma/ws/zy-algorithm/proj/sqList.h
 iostream

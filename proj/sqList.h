@@ -8,8 +8,8 @@ using namespace std;
 #define True 1
 #define False 0
 #define OVERFLOW -2
-#define init_size 200
-#define extra_size 200
+#define init_size 2048
+#define extra_size 2048
 typedef int Status;
 typedef struct{
 	int* elem;
@@ -88,6 +88,7 @@ sqList extend_list(sqList result, sqList toGive){
         append_list(result, toGive.elem[i]);
     return result;
 }
+
 // 比较两个线性表表示的数的大小
 Status isMGreaterThanN(sqList m, sqList n){
     if (m.length > n.length)
@@ -102,7 +103,6 @@ Status isMGreaterThanN(sqList m, sqList n){
                 continue;
             else
                 return False;
-
     }
 
 // 比较两个列表是否完全相等

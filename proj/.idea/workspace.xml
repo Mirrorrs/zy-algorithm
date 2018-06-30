@@ -12,16 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1a6b500-4250-4db1-ae73-98d64f659329" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greatDivide.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/greaterMinus" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/greaterMinus.h" beforeDir="false" afterPath="$PROJECT_DIR$/greatMinus.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj.dir/proj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/proj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greatMinus.h" beforeDir="false" afterPath="$PROJECT_DIR$/greatMinus.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greatMultiple.h" beforeDir="false" afterPath="$PROJECT_DIR$/greatMultiple.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/proj.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sqList.h" beforeDir="false" afterPath="$PROJECT_DIR$/sqList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util.h" beforeDir="false" afterPath="$PROJECT_DIR$/util.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,38 +37,35 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.45865557">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="sqList.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sqList.h">
+          <file leaf-file-name="greatDivide.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/greatDivide.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+                <state relative-caret-position="400">
+                  <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="greatMultiple.h" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/greatMultiple.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
-                  <folding>
-                    <element signature="e#55#73#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="greatMinus.h" pinned="false" current-in-tab="false">
+          <file leaf-file-name="greatMinus.h" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/greatMinus.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="8" selection-start-line="8" selection-end-line="8" />
+                <state relative-caret-position="55">
+                  <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
                   <folding>
                     <element signature="e#59#75#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="util.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/util.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -76,10 +77,31 @@
           <file leaf-file-name="proj.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/proj.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="619">
-                  <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+                <state relative-caret-position="55">
+                  <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sqList.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sqList.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="55">
+                  <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="greatMultiple.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/greatMultiple.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="415">
+                  <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#55#73#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -103,14 +125,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/greatGCD.cpp" />
-        <option value="$PROJECT_DIR$/util.h" />
         <option value="$PROJECT_DIR$/greaterMinus.h" />
-        <option value="$PROJECT_DIR$/sqList.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/greaterMultiple.h" />
         <option value="$PROJECT_DIR$/greaterDivide.h" />
-        <option value="$PROJECT_DIR$/proj.cpp" />
         <option value="$PROJECT_DIR$/greatMultiple.h" />
+        <option value="$PROJECT_DIR$/util.h" />
+        <option value="$PROJECT_DIR$/greatDivide.h" />
+        <option value="$PROJECT_DIR$/greatMinus.h" />
+        <option value="$PROJECT_DIR$/sqList.h" />
+        <option value="$PROJECT_DIR$/proj.cpp" />
       </list>
     </option>
   </component>
@@ -134,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,6 +169,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,22 +224,23 @@
       <workItem from="1530267155949" duration="3032000" />
       <workItem from="1530276882780" duration="2892000" />
       <workItem from="1530284136139" duration="10000" />
+      <workItem from="1530331251856" duration="14510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26916000" />
+    <option name="totallyTimeSpent" value="41426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1045" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12447917" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32938644" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.32975295" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32938644" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3035522" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7664155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -227,7 +252,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32975295" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32938644" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +295,43 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sqList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greatMinus.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#59#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greatMultiple.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#55#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1180">
+          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sqList.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -470,25 +531,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/util.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="375">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj.cpp">
+    <entry file="file://$PROJECT_DIR$/greatMultiple.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+        <state relative-caret-position="415">
+          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#55#73#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greatDivide.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/greatMinus.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="55">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
             <element signature="e#59#75#0" expanded="true" />
           </folding>
@@ -497,17 +565,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sqList.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="55">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greatMultiple.h">
+    <entry file="file://$PROJECT_DIR$/proj.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="55">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
           <folding>
-            <element signature="e#55#73#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

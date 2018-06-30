@@ -1,15 +1,12 @@
-#include<iostream>
-#include<cstdio>
-#include"greatMinus.h"
-#include"sqList.h"
-#include"util.h"
+#include <iostream>
+#include <cstdio>
+#include "greatMinus.h"
+#include "sqList.h"
+#include "util.h"
 #include "greatMultiple.h"
-#include "greatMultiple.h"
-
+#include "greatDivide.h"
 using namespace std;
-bool isGreater(int m , int n){
-	return m > n;
-}
+extern int steps;
 
 // 辗转相减法求最大公约数, 这里m默认初始大于n
 int getPrime(int m, int n){
@@ -23,23 +20,41 @@ int getPrime(int m, int n){
 
 // 辗转相减法求最大公约数, 同样默认m初始大于n
 // 大整数的实现
-
-sqList greaterGetPrime(sqList m, sqList n){
+sqList greatGetPrime(sqList m, sqList n){
     if (!isMGreaterThanN(m, n))
         swap_sq_list(m, n);
     while (!isEqual(m, n)){
-        cout<<"m is : ";
-        tight_print(m);
-        cout<<". n is : ";
-        tight_print(n);
-        cout<<"."<<endl;
-        m = greaterMinus(m, n);
+        m = greatMinus(m, n);
         if (!isMGreaterThanN(m, n))
             swap_sq_list(m, n);
     }
     return m;
 }
 
+// 大整数求最大公约数的优化算法
+// 优化上面函数中较差的情况比如10000000和1
+int steps=0;
+sqList greaterGetPrime(sqList m, sqList n){
+    while(!isEqual(m, n)) {
+        cout <<"After "<<steps++<<" steps, "<<"m is ";
+        tight_print(m);
+        cout << ", n is ";
+        tight_print(n);
+        cout << "." << endl;
+        if (!greatIsUneven(m) && greatIsUneven(n))
+            return greaterGetPrime(greatDivide(m), n);
+        if (greatIsUneven(m) && !greatIsUneven(n))
+            return greaterGetPrime(m, greatDivide(n));
+        if (!greatIsUneven(m) && !greatIsUneven(n))
+            return greatMultiple(greaterGetPrime(greatDivide(m), greatDivide(n)), 2);
+        else {
+            if (!isMGreaterThanN(m, n))
+                swap_sq_list(m, n);
+            return greaterGetPrime(greatMinus(m, n), n);
+        }
+    }
+    return m;
+}
 
 // 编写函数将一个字符创转为sq_list
 
@@ -54,10 +69,11 @@ int main(){
     init_list(result);
     m = ConvertCharArrayToSqList(s1);
     n = ConvertCharArrayToSqList(s2);
-    //result = greaterGetPrime(m, n);
-    //result = greaterMinus(m, n);
-    result = greatMultiple(m, 2);
-    //tight_print(result);
+    result = greaterGetPrime(m, n);
+    //result = greatMinus(m, n);
+    //result = greatMultiple(m, 2);
+    //result = greatDivide(m);
+    tight_print(result);
     //cout<<isMGreaterThanN(m, n);
     //tight_print(m);
     //cout<<endl;

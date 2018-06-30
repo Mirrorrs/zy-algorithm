@@ -9,7 +9,7 @@
 
 using namespace std;
 
-sqList greaterMinus(sqList a1, sqList a2){
+sqList greatMinus(sqList a1, sqList a2){
     int temp=0;
     int len1, len2;
     len1 = a1.length;

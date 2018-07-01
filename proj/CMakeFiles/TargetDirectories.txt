@@ -1,0 +1,3 @@
+/home/ma/CLionProjects/zy-algorithm/proj/CMakeFiles/rebuild_cache.dir
+/home/ma/CLionProjects/zy-algorithm/proj/CMakeFiles/main.dir
+/home/ma/CLionProjects/zy-algorithm/proj/CMakeFiles/edit_cache.dir

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ma/Jetbrains/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/ma/jetbrains/clion-2018.1.5/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/ma/Jetbrains/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/ma/jetbrains/clion-2018.1.5/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ma/ws/zy-algorithm/proj
+CMAKE_SOURCE_DIR = /home/ma/CLionProjects/zy-algorithm/proj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ma/ws/zy-algorithm/proj/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ma/CLionProjects/zy-algorithm/proj/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ma/ws/zy-algorithm/proj/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/ma/Jetbrains/clion-2017.3.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/ma/jetbrains/clion-2018.1.5/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/ma/Jetbrains/clion-2017.3.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/ma/jetbrains/clion-2018.1.5/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ma/ws/zy-algorithm/proj/cmake-build-debug/CMakeFiles /home/ma/ws/zy-algorithm/proj/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ma/CLionProjects/zy-algorithm/proj/cmake-build-debug/CMakeFiles /home/ma/CLionProjects/zy-algorithm/proj/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ma/ws/zy-algorithm/proj/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ma/CLionProjects/zy-algorithm/proj/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ma/ws/zy-algorithm/proj/greatDivide.h
+/home/ma/CLionProjects/zy-algorithm/proj/greatDivide.h
 sqList.h
-/home/ma/ws/zy-algorithm/proj/sqList.h
+/home/ma/CLionProjects/zy-algorithm/proj/sqList.h
 
-/home/ma/ws/zy-algorithm/proj/greatMinus.h
+/home/ma/CLionProjects/zy-algorithm/proj/greatMinus.h
 cstdio
 -
 cstring
@@ -18,13 +18,13 @@ cstring
 iostream
 -
 sqList.h
-/home/ma/ws/zy-algorithm/proj/sqList.h
+/home/ma/CLionProjects/zy-algorithm/proj/sqList.h
 
-/home/ma/ws/zy-algorithm/proj/greatMultiple.h
+/home/ma/CLionProjects/zy-algorithm/proj/greatMultiple.h
 sqList.h
-/home/ma/ws/zy-algorithm/proj/sqList.h
+/home/ma/CLionProjects/zy-algorithm/proj/sqList.h
 
-/home/ma/ws/zy-algorithm/proj/main.cpp
+/home/ma/CLionProjects/zy-algorithm/proj/main.cpp
 iostream
 -
 cstdio
@@ -32,17 +32,17 @@ cstdio
 ctime
 -
 greatMinus.h
-/home/ma/ws/zy-algorithm/proj/greatMinus.h
+/home/ma/CLionProjects/zy-algorithm/proj/greatMinus.h
 sqList.h
-/home/ma/ws/zy-algorithm/proj/sqList.h
+/home/ma/CLionProjects/zy-algorithm/proj/sqList.h
 util.h
-/home/ma/ws/zy-algorithm/proj/util.h
+/home/ma/CLionProjects/zy-algorithm/proj/util.h
 greatMultiple.h
-/home/ma/ws/zy-algorithm/proj/greatMultiple.h
+/home/ma/CLionProjects/zy-algorithm/proj/greatMultiple.h
 greatDivide.h
-/home/ma/ws/zy-algorithm/proj/greatDivide.h
+/home/ma/CLionProjects/zy-algorithm/proj/greatDivide.h
 
-/home/ma/ws/zy-algorithm/proj/sqList.h
+/home/ma/CLionProjects/zy-algorithm/proj/sqList.h
 iostream
 -
 cstdio
@@ -52,11 +52,15 @@ cstdlib
 malloc.h
 -
 
-/home/ma/ws/zy-algorithm/proj/util.h
+/home/ma/CLionProjects/zy-algorithm/proj/util.h
 sqList.h
-/home/ma/ws/zy-algorithm/proj/sqList.h
+/home/ma/CLionProjects/zy-algorithm/proj/sqList.h
 cstring
 -
 iostream
+-
+cstdlib
+-
+cstdio
 -
 

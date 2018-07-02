@@ -12,38 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1a6b500-4250-4db1-ae73-98d64f659329" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/in1.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in2.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greatMultiple.h" beforeDir="false" afterPath="$PROJECT_DIR$/greatMultiple.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in1.in" beforeDir="false" afterPath="$PROJECT_DIR$/in1.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in2.in" beforeDir="false" afterPath="$PROJECT_DIR$/in2.in" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util.h" beforeDir="false" afterPath="$PROJECT_DIR$/util.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out.out" beforeDir="false" afterPath="$PROJECT_DIR$/out.out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -60,8 +34,8 @@
       <file leaf-file-name="greatMultiple.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/greatMultiple.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="119">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -71,11 +45,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="sqList.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sqList.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sqList.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1717">
-              <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+            <state relative-caret-position="544">
+              <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
               <folding>
                 <element signature="e#122#139#0" expanded="true" />
               </folding>
@@ -86,8 +60,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="153">
+              <caret line="50" column="75" lean-forward="true" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -95,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="out.out" pinned="false" current-in-tab="true">
+      <file leaf-file-name="out.out" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out.out">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -108,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/in1.in">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="139" selection-start-column="139" selection-end-column="139" />
+              <caret column="487" selection-start-column="487" selection-end-column="487" />
             </state>
           </provider>
         </entry>
@@ -117,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/in2.in">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="112" selection-start-column="112" selection-end-column="112" />
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -177,15 +151,15 @@
         <option value="$PROJECT_DIR$/proj.cpp" />
         <option value="$PROJECT_DIR$/greatDivide.h" />
         <option value="$PROJECT_DIR$/greatMinus.h" />
-        <option value="$PROJECT_DIR$/greatMultiple.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/in.txt" />
         <option value="$PROJECT_DIR$/sqList.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/in1.in" />
-        <option value="$PROJECT_DIR$/in2.in" />
         <option value="$PROJECT_DIR$/util.h" />
         <option value="$PROJECT_DIR$/out.out" />
+        <option value="$PROJECT_DIR$/greatMultiple.h" />
+        <option value="$PROJECT_DIR$/in1.in" />
+        <option value="$PROJECT_DIR$/in2.in" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -281,25 +255,26 @@
       <workItem from="1530369941487" duration="81000" />
       <workItem from="1530424007581" duration="9011000" />
       <workItem from="1530437276319" duration="178000" />
+      <workItem from="1530520603871" duration="1168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55542000" />
+    <option name="totallyTimeSpent" value="56710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1372" height="771" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12445095" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.12445095" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.45468277" />
-      <window_info anchor="bottom" id="CMake" order="7" weight="0.32938644" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.76586103" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32938644" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50073206" side_tool="true" weight="0.76586103" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.38217524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39957035" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -312,10 +287,10 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.38217524" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.38217524" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.12445095" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12445095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -645,30 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sqList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
-          <folding>
-            <element signature="e#122#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/in1.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="139" selection-start-column="139" selection-end-column="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/in2.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="112" selection-start-column="112" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -689,27 +640,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/greatMultiple.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/in1.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="487" selection-start-column="487" selection-end-column="487" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/in2.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="153">
+          <caret line="50" column="75" lean-forward="true" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greatMultiple.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out.out">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+          <folding>
+            <element signature="e#122#139#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

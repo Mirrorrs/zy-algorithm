@@ -36,7 +36,7 @@ sqList greatGetPrime(sqList m, sqList n){
 // 大整数求最大公约数的优化算法
 // 优化上面函数中较差的情况比如10000000和1
 int steps=0;
-sqList greaterGetPrime(sqList m, sqList n){
+sqList greaterGCD(sqList m, sqList n){
     while(!isEqual(m, n)) {
         cout <<"After "<<++steps<<" steps, "<<"m is ";
         tightPrint(m);
@@ -44,15 +44,15 @@ sqList greaterGetPrime(sqList m, sqList n){
         tightPrint(n);
         cout << "." << endl;
         if (!greatIsUneven(m) && greatIsUneven(n))
-            return greaterGetPrime(greatDivide(m), n);
+            return greaterGCD(greatDivide(m), n);
         if (greatIsUneven(m) && !greatIsUneven(n))
-            return greaterGetPrime(m, greatDivide(n));
+            return greaterGCD(m, greatDivide(n));
         if (!greatIsUneven(m) && !greatIsUneven(n))
-            return greatMultiple(greaterGetPrime(greatDivide(m), greatDivide(n)), 2);
+            return greatMultiple(greaterGCD(greatDivide(m), greatDivide(n)));
         else {
             if (!isMGreaterThanN(m, n))
                 SwapSqList(m, n);
-            return greaterGetPrime(greatMinus(m, n), n);
+            return greaterGCD(greatMinus(m, n), n);
         }
     }
     return m;
@@ -83,7 +83,7 @@ int main(){
     // 算法计时开始
     start = clock();
     // 传入参数计算GCD
-    result = greaterGetPrime(m, n);
+    result = greaterGCD(m, n);
     // 算法计时结束
     end = clock();
     cost = (double)(end - start) / CLOCKS_PER_SEC;
